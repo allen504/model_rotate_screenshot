@@ -49,11 +49,11 @@
                 gltf.scene.scale.set(50, 50, 50);
 
                 // Set up animation mixer if needed
-                mixer = new THREE.AnimationMixer(model);
-                if (gltf.animations.length > 0) {
-                    const action = mixer.clipAction(gltf.animations[0]);
-                    //action.play();
-                }
+                // mixer = new THREE.AnimationMixer(model);
+                // if (gltf.animations.length > 0) {
+                //     const action = mixer.clipAction(gltf.animations[0]);
+                //     action.play();
+                // }
             });
 
             // Add a clock for timing animations
